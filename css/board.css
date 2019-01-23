@@ -1,0 +1,234 @@
+body{
+	margin: 0 ;
+	font-family: 'Exo', sans-serif;
+    
+    background-color: #F1F1F1;
+}
+
+.main{
+	/*background-color: #0e1111;*/
+    width: 320px;
+    height: 100vh;
+    margin-left: -270px;
+    position: fixed;
+    transition: 1s;
+}
+.main .bars i{
+	color: #FFFFF0;	
+	margin-left:85%;
+	margin-top: 8%;
+	font-size: 25px;
+	cursor: pointer;
+}
+.custom{
+	background-color: black;
+    margin-left: -65px;
+    width: 320px;
+	height: 100vh;
+	z-index: 999;
+   transition: 1s;
+}
+
+#navbar{
+	margin-top: 3%;
+}
+.navbar{
+   transition: 1s ease-in-out;
+    width: 100%;
+    z-index: 9999;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    border-color: rgba(255,255,255,0.25);
+    border-top-color: transparent;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom: none;
+    background-color: black;
+}
+
+header{
+    background: url('../images/board.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height:300px;
+}
+header .bckground-five{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.breadcrumb{
+    margin-top: 17%;
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: 700;
+}
+.breadcrumb a{
+    color: goldenrod;;
+}
+.breadcrumb .active {
+    color: white;
+}
+
+
+.fixed {
+  position:fixed; 
+  width:100%;
+}
+
+
+.logo{
+	text-align: center;
+}
+.logo img{
+	border-radius:50%; 
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.social-media{
+	margin-top: 10%;
+	margin-left:35%;
+}
+.social-media i{
+    color: #FFFAFA;
+    font-size: 20px;
+}
+.social-media span{
+	color:  #FFFAFA;
+}
+.main-ul{
+	margin-left: 15%;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    margin-top: 35%
+}
+.main-ul li a {
+    list-style-type: none;
+    color:aliceblue;
+}
+.main-ul li{
+	padding: 3%;
+	cursor: pointer;
+}
+.main-ul li a:hover {
+    color: darkgoldenrod;
+    list-style-type: none;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;}
+.main-ul li{
+	padding: 3%;
+	cursor: pointer;
+}
+.info {
+	margin-left: 15%;
+    font-size: 15px;
+    color: white;
+    list-style-type: none;
+    margin-top: 1%
+}
+.info li{
+	padding: 2%;
+}
+
+
+
+/*start*/
+.board h3 {
+    font-weight: 700;
+}
+.card {
+    width: 150px;
+    height: 200px;
+    margin: 50px auto;
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 1s ease-in-out;
+}
+.card:hover {transform: rotateY(180deg);}
+.card > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/*    background-color: aqua;*/
+    padding: 10px;
+    border-radius: 10px;
+/*    border: 1px solid #ccc;*/
+    text-align: center;
+}
+.card .front header {width: 100%; height: 80px;}
+.card .front {z-index: 2; backface-visibility: hidden; overflow: hidden;}
+.card .front img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.card .back {
+    z-index: 1;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    background-color: black;
+    color: aliceblue;
+}
+.bb {
+    left: 200px;
+}
+.aa{margin-right: 3px;}
+.aa li {
+    list-style-type: none;
+    display: inline;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+/* end */
+footer{
+    background: #111;
+    color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+.footer-cont img{
+  border-radius: 50px;
+}
+
+.social-media-footer ul{
+  margin-top: 2%;
+}
+.social-media-footer i{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+}
+.social-media-footer a{
+  font-size: 13px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  line-height: 44px;
+  text-align: center;
+  background: #222;
+}
+
+.social-media-footer a:hover{
+  background: #D4AF37;
+  color: #222;
+  transition: .3s ease-in-out;
+}
+
+.copyright {
+margin-top: 8px;
+}
+.copyright span{
+  color: #D4AF37;
+}
+

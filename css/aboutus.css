@@ -1,0 +1,295 @@
+body{
+	margin: 0 ;
+	
+}
+
+.main{
+	/*background-color: #0e1111;*/
+    width: 320px;
+    height: 100vh;
+    margin-left: -270px;
+    position: fixed;
+    transition: 1s;
+}
+.main .bars i{
+	color: #FFFFF0;	
+	margin-left:85%;
+	margin-top: 8%;
+	font-size: 25px;
+	cursor: pointer;
+}
+.custom{
+	background-color: black;
+    margin-left: -65px;
+    width: 320px;
+	height: 100vh;
+	z-index: 999;
+   transition: 1s;
+}
+
+#navbar{
+	margin-top: 3%;
+}
+.navbar{
+    transition: 1s ease-in-out;
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 9999;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    border-color: rgba(255,255,255,0.25);
+    border-top-color: transparent;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom: none;
+    background-color: black;
+}
+.fixed {
+  position:fixed; 
+  width:100%;
+}
+header{
+  background: url('../images/sbs11111.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height:300px;
+}
+.font-bckg-five h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.breadcrumb{
+	margin-top: 15%;
+	font-size: 20px;
+	background-color: transparent;
+	font-weight: 700;
+}
+.breadcrumb a{
+	color: goldenrod;;
+}
+.breadcrumb .active {
+	color: white;
+}
+
+
+hr{
+  margin-bottom: 40px;
+}
+
+.logo{
+	text-align: center;
+}
+.logo img{
+	border-radius:50%; 
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.social-media{
+	margin-top: 10%;
+	margin-left:25%;
+}
+.social-media i{
+    color: #FFFAFA;
+    font-size: 20px;
+}
+.social-media span{
+	color:  #FFFAFA;
+}
+.main-ul{
+	margin-left: 15%;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    margin-top: 35%
+}
+
+.main-ul li{
+	padding: 3%;
+	cursor: pointer;
+}
+.main-ul li{
+	padding: 3%;
+	cursor: pointer;
+}
+.main-ul li a {
+    list-style-type: none;
+    color:aliceblue;
+}
+.main-ul li a:hover {
+    color: darkgoldenrod;
+    list-style-type: none;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;}
+.info {
+	margin-left: 15%;
+    font-size: 15px;
+    color: white;
+    list-style-type: none;
+    margin-top: 1%
+}
+.info li{
+	padding: 2%;
+}
+
+
+
+/*start footer*/
+
+footer{
+    background: #111;
+    color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+.footer-cont img{
+  border-radius: 50px;
+}
+
+.social-media-footer ul{
+  margin-top: 2%;
+}
+.social-media-footer i{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+}
+.social-media-footer a{
+  font-size: 13px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  line-height: 44px;
+  text-align: center;
+  background: #222;
+}
+
+.social-media-footer a:hover , .social-media-footer i:hover{
+  background: #D4AF37;
+  color: #222;
+  transition: .3s ease-in-out;
+}
+
+.copyright {
+margin-top: 8px;
+}
+.copyright span{
+  color: #D4AF37;
+}
+/*end footer*/
+
+
+/*start section about*/
+.about-us{
+    padding: 70px 0;
+    background-color: #FFFAFA;
+}
+.about-us h1 , .about-idea h1 , .about-team h1{
+    font-family: font-family: 'Raleway', sans-serif;
+    letter-spacing: -3px;
+    font-weight: 800;
+    font-size: 42px;
+}
+.about-us hr , .about-idea hr ,.about-team hr{
+    width: 70%;
+}
+.about-us p{
+    font-size: 17px;
+
+}
+.about-us img{
+    width: 100%;
+    height:300px;
+}
+
+.about-idea , .about-team{
+    padding: 70px 0;
+}
+.about-idea h3 , .about-team h3{
+    font-family: font-family: 'Raleway', sans-serif;
+    letter-spacing: -1px;
+    font-weight: 800;
+}
+.about-idea p , .about-team p{
+    margin-bottom: 20px;
+}
+.about-team {
+    background-color: #FFFAFA;
+}
+.about-ceo {
+    background-color: #eee;
+    padding: 40px 0;
+}
+.about-ceo img{
+    border-radius: 50px;
+    margin-top: 45px;
+}
+.about-ceo h2{
+    font-family: font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+.about-founder .lead{
+    line-height: 1.7
+}
+.about-ceo .btn-primary{
+    background-color: #333;
+    border-color: #333;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/*end section about*/
+
+/*start section founder*/
+
+.about-founder{
+
+  background:url(../images/tie_jacket_art_123005_1920x1080.jpg) no-repeat center center fixed; 
+  min-height: 600px;
+}
+.about-founder .team{
+  background:rgb(2,2,2,0.8);
+  color: #fff;
+  min-height: 600px; 
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+}
+.about-founder h1{
+    font-family: font-family: 'Raleway', sans-serif;
+    letter-spacing: -3px;
+    font-weight: 800;
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+.about-founder .person{
+    margin-bottom: 40px;
+}
+
+.about-founder .btn-primary {
+    background-color: white;
+    border-color: #333;
+    display: inline-block;
+    margin-bottom: 30px;
+    color: black;
+}
+/*end section founder*/
+
+
+
+@media screen and (max-width: 768px){
+    .breadcrumb {
+    margin-top: 200px;
+}
+ .logo img{
+   height: 50px; 
+   margin-top: 15px;
+  }
+}
